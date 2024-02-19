@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ~/Documents/php/app:/var/www/html
+      - ~/php/app:/var/www/html
     links:
       - db:db
   db:
