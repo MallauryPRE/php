@@ -1,0 +1,20 @@
+.logo-image
+{
+    height: 100%;
+}
+header{
+    height: 20vh;  border: 1px solid black;
+}
+nav{
+    height: 5vh;  border: 1px solid black;
+    display: flex;
+}
+main{
+    height: 60vh;
+    border: 1px solid black;
+}
+footer{
+    background-color: whitesmoke;
+    height: 10vh;  
+    border: 1px solid black;
+}

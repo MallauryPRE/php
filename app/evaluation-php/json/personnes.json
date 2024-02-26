@@ -1,0 +1,63 @@
+[
+    {
+        "nom": "Martin",
+        "prenom": "Élodie",
+        "date": "1985-04-12",
+        "resume": "Élodie a commencé sa carrière dans le marketing avant de découvrir sa passion pour le développement web. Après plusieurs années à coder pour des startups, elle rejoint notre entreprise pour apporter son expertise en front-end."
+    },
+    {
+        "nom": "Dupont",
+        "prenom": "Alexandre",
+        "date": "1978-09-25",
+        "resume": "Avec un fond solide en ingénierie logicielle, Alexandre a travaillé sur divers projets d infrastructure avant de se joindre à nous. Il aime relever des défis techniques complexes et contribue activement à notre architecture système."
+    },
+    {
+        "nom": "Leroy",
+        "prenom": "Mélanie",
+        "date": "1990-02-17",
+        "resume": "Mélanie apporte une richesse d expérience en gestion de projet à notre équipe. Ayant dirigé des projets dans plusieurs industries, elle se concentre maintenant sur l amélioration de nos processus internes pour accroître l efficacité."
+    },
+    {
+        "nom": "Moreau",
+        "prenom": "Julien",
+        "date": "1982-11-08",
+        "resume": "Julien est un développeur backend passionné qui aime explorer de nouvelles technologies. Avant de nous rejoindre, il a contribué à des projets open source significatifs et continue de pousser les limites de notre stack technologique."
+    },
+    {
+        "nom": "Petit",
+        "prenom": "Isabelle",
+        "date": "1989-05-23",
+        "resume": "Isabelle est notre experte en UX/UI, avec un œil pour le design qui engage et convertit. Son travail sur l amélioration de l expérience utilisateur a eu un impact majeur sur la satisfaction de nos clients."
+    },
+    {
+        "nom": "Rivière",
+        "prenom": "Thomas",
+        "date": "1992-07-14",
+        "resume": "Thomas a rejoint l équipe de développement en tant qu expert en sécurité informatique. Ayant travaillé dans le secteur bancaire, il apporte une compréhension approfondie de la cybersécurité et des meilleures pratiques pour protéger nos systèmes et données."
+    },
+    {
+        "nom": "Blanchard",
+        "prenom": "Céline",
+        "date": "1988-03-22",
+        "resume": "Céline est responsable de notre département marketing. Avec une passion pour le storytelling et une expertise en marketing digital, elle a considérablement augmenté notre visibilité en ligne et renforcé l engagement de notre clientèle."
+    },
+    {
+        "nom": "Girard",
+        "prenom": "Fabien",
+        "date": "1974-11-30",
+        "resume": "Fabien, notre chef de projet, est un leader né. Il coordonne les équipes de projet pour s assurer que tout est livré à temps et dépasse les attentes. Sa capacité à résoudre les problèmes et à maintenir l équipe motivée est inégalée."
+    },
+    {
+        "nom": "Lefebvre",
+        "prenom": "Marie",
+        "date": "1986-01-17",
+        "resume": "Marie est une développeuse full-stack talentueuse qui aime travailler sur des projets complexes et interdisciplinaires. Elle a joué un rôle clé dans le développement de notre plateforme en ligne, en veillant à ce qu elle soit à la fois puissante et facile à utiliser."
+    },
+    {
+        "nom": "Mercier",
+        "prenom": "Lucas",
+        "date": "1995-05-05",
+        "resume": "Lucas est le dernier arrivé dans notre équipe de design. Diplômé d une école d art prestigieuse, il apporte un œil frais et innovant à nos projets, en se concentrant sur la création d interfaces utilisateurs intuitives et esthétiquement plaisantes."
+    }
+]
+

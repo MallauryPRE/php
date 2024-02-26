@@ -1,0 +1,15 @@
+[
+    {
+        "nom": "Martin",
+        "prenom": "Élodie",
+        "date": "1985-04-12",
+        "resume": "Élodie a commencé sa carrière dans le marketing avant de découvrir sa passion pour le développement web. Après plusieurs années à coder pour des startups, elle rejoint notre entreprise pour apporter son expertise en front-end."
+    },
+    {
+        "nom": "Dupont",
+        "prenom": "Alexandre",
+        "date": "1978-09-25",
+        "resume": "Avec un fond solide en ingénierie logicielle, Alexandre a travaillé sur divers projets d infrastructure avant de se joindre à nous. Il aime relever des défis techniques complexes et contribue activement à notre architecture système."
+    }
+]
+
