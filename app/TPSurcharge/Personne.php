@@ -13,15 +13,25 @@ class Personne
         $this->nom = $nom;
 
     }
-public function saluer():string
-{
-    return "azerty";
-}
-public function __debugInfo()
-{
+// public function saluer():string
+// {
+//     return "azerty";
+// }
+// public function __debugInfo()
+// {
    
-    return ['name'=>$this->_nom, 'first_name'=>$this->_prenom];
+//     return ['name'=>$this->_nom, 'first_name'=>$this->_prenom];
 
+// }
+public function saluer(string $pWord="salut"): string
+{
+    // return "salut";
+    return "$this->_prenom $this->_nom,  $pWord ";
+}
+public function __destruct()
+{
+    echo "instance détruite";
 }
 }
+
 ?>
