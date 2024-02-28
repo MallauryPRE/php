@@ -1,21 +1,13 @@
-<?php declare(strict_types=1);
-?>
-<!DOCTYPE html>
-<html lang="fr-FR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tpClassesStagiaires</title>
-</head>
-<body>
 <?php
-
-include_once('functions.php');
-include_once('Personne.php');
-$prof = new Personne(prenom:"Thierry", nom:"BRU");
-$prof->saluer("Bonjour");
+require_once 'fonctions.php';
+require_once 'personne.php';
+echo "<p>index.php:start</p>";
+$prof = new Surcharge\Personne("Thierry","BRU",44);
+echo $prof->saluer('Bonyour');
+foo($prof);
 foo($prof);
 var_dump($prof);
-?>
-</body>
-</html>
+$prof->methodeFoireuse(42,"tonton");
+echo "<p>index.php:end</p>";
+echo "voici l'age du prof".$prof->get_age();
+echo "voici un autre get automatique:".$prof->get_nom()." et ".$prof->get_prenom();

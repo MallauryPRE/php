@@ -1,14 +1,10 @@
 <?php
-require_once("Personne.php");
-
-
-function foo(Personne $personne)
+function foo(Surcharge\Personne $pPersonne)
 {
-   
-    echo "foo";
-    $personne->saluer();
-    $unAutre = new Personne(prenom:"Martin",nom:"DUPONT");
-    $unAutre->saluer("Bonjour");
-
+    echo "<p>foo:start</p>";
+    echo $pPersonne->saluer();
+    $unAutre = new Surcharge\Personne(prenom:"Martin",nom:"DUPONT");
+    echo $unAutre->saluer('Bijour');
+    $pPersonne->setName('BRUTUS');
+    echo "<p>foo:end</p>";
 }
-?>
