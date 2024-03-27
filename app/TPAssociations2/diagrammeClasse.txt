@@ -1,0 +1,18 @@
+-------------------                        --------------------
+|    Personnage   |                        |       Raid       |
+-------------------                        --------------------
+| - nom: string   |                        | - nom: string    |
+| - prenom: string|                        | - lieu: string   |
+| - classe: string|                        | - date: string   |
+| - niveau: int   |                        |                  |
+-------------------                        --------------------
+| + construct() |                          | + construct() |
+| + getNom(): string                       | + getNom(): string
+| + setNom(nom: string): void              | + setNom(nom: string): void
+| + getPrenom(): string                    | + setLieu(lieu: string): void
+| + setPrenom(prenom: string): void        | + getLieu(): string
+| + getClasse(): string                    | + setDate(date: string): void
+| + setClasse(classe: string): void        | + getDate(): string
+| + getNiveau(): int                       | + participer(personnage: Personnage): void
+| + setNiveau(niveau: int): void           | + getParticipants(): array
+-----------------------------------------  ---------------------------------------------
